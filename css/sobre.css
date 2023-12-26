@@ -1,0 +1,90 @@
+*{
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+}
+
+body{
+    margin: 0;
+}
+
+.logo{
+    width: 50px;
+}
+
+#logo-left{
+    margin-top: 10px;
+    margin-left: 60px;
+}
+
+span{
+    position: relative;
+    bottom: 20px;
+    margin-left: 7px;
+    font-weight: bold;
+}
+
+.cesta{
+    width: 20px;
+}
+
+header{ 
+    width: 100%;
+    height: 70px;
+    background-color: pink;
+    box-shadow: 0px 0px 8px 0px rgb(85, 84, 84); 
+}
+
+header *{
+    display: inline-block;
+}
+
+nav{
+    position: absolute;
+    right: 110px;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a{
+    color: black;
+    padding: 7px 13px;
+    border-radius: 3px;
+}
+
+nav ul li a:hover{
+    background-color: white;
+    transition: 0.16s;
+}
+
+.devs{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.nomes{
+    width: 300px;
+    height: 300px;
+    background: #fff;
+}
+
+.devs ul li{
+    padding: 10px;
+}
+
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: pink;
+    margin-top: 110px;
+}
+
+footer p{
+    font-weight: bold;
+}
